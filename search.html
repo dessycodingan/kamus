@@ -1,0 +1,513 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<!--buat ngebaca data ke xml-->
+<meta charset="utf-8">
+
+<title>Kamus Istilah Jaringan Komputer</title>
+
+<!--buat ngebaca libary dari Jquery mobile-->
+<link href="JavaScript/jquery.mobile-1.3.1.min.css" rel="stylesheet" type="text/css"/>
+<script src="JavaScript/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="JavaScript/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
+
+</head> 
+<body> 
+
+<!-- kalo mau link "id" nya diganti dulu-->
+<div data-role="page" id="Search" data-theme="e"> 
+
+<!-- ini buat headernya-->
+	<div data-role="header" data-theme="a">
+  
+
+<!-- ini buat ikon panel kiri, kodingan utama ditaro paling bawah setelah isi konten huruf--> 
+    <a href="#left-panel" data-icon="grid" data-iconpos="notext" data-shadow="true" data-iconshadow="true" data-theme="e">Menu</a>
+  
+<!-- ini buat headernya-->  
+  <div align="center">
+	<p>Kamus Istilah  <br>Jaringan Komputer</br></p>
+    </div>
+      
+   
+	</div>    
+ 
+ <!-- Isi ListView-->
+	<div data-role="content">	
+    <div class="article">  <!-- Ini berguna untuk membaca letak kodingan panel-->
+
+<!-- Kodingan ListView buat search--> <!--Ini kodingan buat memfilter singkatan kata ex: data-filtertext="ABI"-->
+<ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Cari kata...">
+
+<!-- isi kosa kata huruf A-->
+	<li data-filtertext="ANSI American National Standards Institute">
+	<a href="ansi.html">American National Standards Institute (ANSI)</a></li>
+        
+	<li><a href="amplitude.html">Amplitude</a></li>
+	<li><a href="amplitude_modulation.html">Amplitude Modulation</a></li>
+	<li><a href="analog.html">Analog</a></li>
+    <li><a href="analog_data.html">Analog Data</a></li>
+	<li><a href="analog_signal.html">Analog Signal</a></li>
+    <li><a href="anonymous_ftp.html">Anonymous FTP</a></li>
+    <li><a href="application.html">Application</a></li>
+	<li><a href="application_interface.html">Application Interface</a></li>
+        
+	<li data-filtertext="ABI Application Binary Interface">
+	<a href="abi.html">Application Binary Interface (ABI)</a></li>
+        
+	<li><a href="application_layer.html">Application Layer</a></li>
+	
+	<li data-filtertext="API Application Programming Interface">
+	<a href="api.html">Application Programming Interface (API)</a></li>
+        
+    <li><a href="application_server.html">Application Server</a></li>
+	<li><a href="archie.html"> Archie</a></li>
+        
+	<li data-filtertext="ATM Asynchronous Transfer Mode">
+	<a href="atm.html">Asynchronous Transfer Mode (ATM)</a></li>
+	   
+
+<!-- isi kosa kata huruf B-->
+	<li><a href="bandwidth.html">Bandwidth</a></li>
+        
+	<li data-filtertext="Basic Input-Output System (BIOS)">
+	<a href="bios.html">Basic Input/Output System (BIOS)</a></li>
+	
+	<li><a href="binary.html">Binary</a></li>
+	<li><a href="bit.html">Bit</a></li>
+    <li><a href="bitnet.html">Bitnet</a></li>
+	<li><a href="block.html">Block</a></li>
+    <li><a href="bridge.html">Bridge</a></li>
+    <li><a href="broadcast.html">Broadcast</a></li>
+	
+	<li><a href="broadcast_address.html">Broadcast Address</a></li>
+    <li><a href="buffer.html">Buffer</a></li>
+	<li><a href="bus.html">Bus</a></li>
+    <li><a href="bus_topology.html">Bus Topology</a></li>
+    <li><a href="byte.html">Byte</a></li>
+        
+        
+<!-- isi kosa kata huruf C-->
+	<li data-filtertext="CPU Central Processing Unit">
+	<a href="cpu.html">Central Processing Unit</a></li>
+        
+	<li><a href="character.html">Character</a></li>
+	<li><a href="checksum.html">Checksum</a></li>
+    <li><a href="circuit.html">Circuit</a></li>
+    <li><a href="circuit_switching.html">Circuit Switching</a></li>
+	<li><a href="client.html">Client</a></li>
+	
+    <li><a href="client_server.html">Client-Server Model</a></li>
+    <li><a href="command.html">Command</a></li>
+    <li><a href="communication_network.html">Communication Network</a></li>
+	<li><a href="compression.html">Compression</a></li>
+        
+	<li data-filtertext="CSNET Computer Science Network">
+	<a href="csnet.html">Computer Science Network (CSNET)</a></li>
+        
+	<li><a href="configuration.html">Configuration</a></li>
+	<li><a href="connectionless.html">Connectionless</a></li>
+	<li><a href="connectivity.html">Connectivity</a></li>
+    <li><a href="cracker.html">Cracker</a></li>
+
+
+<!-- isi kosa kata huruf D-->
+        <li><a href="data.html">Data</a></li>
+        <li><a href="database.html">Database</a></li>
+        
+	<li data-filtertext="DCE Data Circuit-Terminating Equipmen">
+	<a href="dce.html">Data Circuit-Terminating Equipment DCE)</a></li>
+        
+	<li><a href="datagram.html">Datagram</a></li>
+        
+	<li data-filtertext="DDP Datagram Delivery Protocol">
+	<a href="ddp.html">Datagram Delivery Protocol (DDP)</a></li>
+       
+        <li><a href="data_link.html">Data Link Layer</a></li>
+        <li><a href="data_rate.html">Data Rate</a></li>
+        
+	<li data-filtertext="DTE Data Terminal Equipment">
+	<a href="dte.html">Data Terminal Equipment (DTE)</a></li>
+	
+        <li data-filtertext="DEK Data Encryption Key">
+		<a href="dek.html">Data Encryption Key (DEK)</a></li>
+		
+	<li data-filtertext="DES Data Encryption Standard">
+	<a href="des.html">Data Encryption Standard (DES)</a></li>
+        
+        <li><a href="decryption.html">Decryption</a></li>
+        
+	<li data-filtertext="DARPA Defense Advanced Research Projects Agency">
+	<a href="darpa.html">Defense Advanced Research Projects Agency (DARPA)</a></li>
+        
+	<li data-filtertext="DDN Defense Data Network">
+	<a href="ddn.html">Defense Data Network (DDN)</a></li>
+	
+    <li data-filtertext="DDN-NIC Defense Data Network-Network Information Center">
+	<a href="ddn_nic.html">Defense Data Network-Network Information Center (DDN-NIC)</a></li>
+        
+        <li><a href="developer.html">Developer</a></li>
+        <li><a href="digital.html">Digital</a></li>
+        <li><a href="domain.html">Domain</a></li>
+        <li><a href="dos.html">DOS</a></li>
+        
+
+<!-- isi kosa kata huruf E-->
+
+	<li><a href="echo_protocol.html">Echo Protocol</a></li>
+        
+        
+	<li data-filtertext="EFF Electronic Frontier Foundation">
+	<a href="eff.html">Electronic Frontier Foundation (EFF)</a></li>
+        
+	<li><a href="elevator_seeking.html">Elevator Seeking</a></li>
+    <li><a href="encapsulation_facility.html">Encapsulation Facility</a></li>
+	<li><a href="encryption.html">Encryption</a></li>
+	
+	<li><a href="ending_delimiter.html">Ending Delimiter</a></li>
+    <li><a href="engine.html">Engine</a></li>
+    <li><a href="email_address.html">E-mail Address</a></li>
+        
+	<li data-filtertext="Electronic Mail E-mail">
+	<a href="email.html">E-mail (Electronic Mail)</a></li>
+        
+	<li><a href="end_system.html">End System</a></li>	
+	<li><a href="enterprise_internetwork.html">Enterprise Internetwork</a></li>
+	<li><a href="entity.html">Entity</a></li>
+	
+    <li><a href="equipment_room.html">Equipment Room</a></li>
+    <li><a href="error_detecting_code.html">Error Detecting Code</a></li>
+    <li><a href="error_detection.html">Error Detection</a></li>
+    <li><a href="error_protocol.html">Error Protocol</a></li>
+    <li><a href="error_rate.html">Error Rate</a></li>
+	<li><a href="ethernet.html">Ethernet</a></li>
+    <li><a href="ethertalk.html">EtherTalk</a></li>
+        
+	<li data-filtertext="ELAP EtherTalk Link Access Protocol">
+	<a href="elap.html">EtherTalk Link Access Protocol (ELAP)</a></li>
+        
+	<li><a href="expansion.html">Expansion</a></li>
+        
+    <li data-filtertext="EBCDIC Extended Binary Coded Decimal Interchange Code">
+	<a href="ebcdic.html">Extended Binary Coded Decimal Interchange Code (EBCDIC)</a></li>
+        
+	<li><a href="extended_lan.html">Extended LAN</a></li>
+        
+	<li data-filtertext="EGP Exterior Gateway Protocol">
+	<a href="egp.html">Exterior Gateway Protocol (EGP)</a></li>
+        
+
+
+<!-- isi kosa kata huruf F-->
+	<li><a href="fiber_optic_cable.html">Fiber-Optic Cable</a></li>
+    <li><a href="firmware.html">Firmware</a></li>
+	<li><a href="finger.html">Finger</a></li>
+    <li><a href="flame.html">Flame</a></li>
+    <li><a href="flow_control.html">Flow Control</a></li>
+        
+	<li data-filtertext="FYI For Your Information">
+	<a href="fyi.html">For Your Information (FYI)</a></li>
+        
+	<li><a href="file_server.html">File Server</a></li>
+	<li><a href="file_sharing.html">File Sharing</a></li>
+	<li><a href="file_transfer.html">File Transfer</a></li>
+        
+	<li data-filtertext="FTP File Transfer Protocol">
+	<a href="ftp.html">File Transfer Protocol (FTP)</a></li>
+        
+    <li><a href="filtering_bridge.html">Filtering Bridge</a></li>
+	<li><a href="fragment.html">Fragment</a></li>
+	<li><a href="fragmentation.html">Fragmentation</a></li>
+        <li><a href="frame_relay.html">Frame Relay</a></li>
+        <li><a href="frequency.html">Frequency</a></li>
+      
+
+<!-- isi kosa kata huruf G-->
+ 	<li><a href="gateaway.html">Gateaway</a></li>
+        
+	<li data-filtertext="GB Gigabyte"><a href="gb.html">Gigabyte (GB)</a></li>
+	<li data-filtertext="GOSIP Government OSI Profile">
+	<a href="gosip.html">Government OSI Profile</a></li>
+	
+	<li><a href="group_address.html">Group Address</a></li>
+    <li><a href="groupware.html">Groupware</a></li>
+
+<!-- isi kosa kata huruf H-->
+ 	<li><a href="hacker.html"> Hacker</a></li>
+        <li><a href="header.html">Header</a></li>
+        
+	<li data-filtertext="HDLC High-Level Data Link Control">
+	<a href="hdlc.html">High-Level Data Link Control (HDLC)</a></li>
+        
+	<li><a href="hop.html">Hop</a></li>     
+	<li><a href="host.html"> Host</a></li>
+    <li><a href="host_address.html">Host Address</a></li>
+    
+	<li><a href="host_name.html">Host Name</a></li>     
+	<li><a href="host_number.html"> Host Number</a></li>
+    <li><a href="hub.html">Hub</a></li>
+    <li><a href="hypertext.html"> Hypertext</a></li>     
+        
+        
+<!-- isi kosa kata huruf I-->
+ 		
+	<li><a href="impulse_noise.html">Impulse Noise</a></li>     
+	
+	<li data-filtertext="ISDN">
+	<a href="isdn.html"> Integrated Services Digital Network (ISDN)</a></li>
+        
+	<li><a href="interface.html">Interface</a></li>
+        
+	<li data-filtertext="IGP Interior Gateaway Protocol">
+	<a href="igp.html"> Interior Gateaway Protocol (IGP)</a></li>
+	
+	<li data-filtertext="IS Intermediate System">
+	<a href="is.html"> Intermediate System (IS)</a></li>
+    
+	<li data-filtertext="ISO International Standards Organization (ISO)">
+	<a href="iso.html">International Standards Organization (ISO)</a></li>
+
+	<li><a href="internet.html"> Internet</a></li>
+    <li><a href="internet_address.html">Internet Address</a></li>
+
+        <li data-filtertext="ID Internet Draft">
+		<a href="id.html">Internet Draft</a></li>
+
+
+	<li data-filtertext="IP Internet Protocol">
+		<a href="ip.html">Internet Protocol (IP)</a></li>
+	
+	<li><a href="internetwork.html">Internetwork</a></li>
+        
+        
+<!-- isi kosa kata huruf J-->
+
+ 	<li><a href="jabber.html">Jabber</a></li>     
+  
+	<li data-filtertext="JANET Joint Academic Network">
+	<a href="janet.html">Joint Academic Network (JANET)</a></li> 
+	
+	<li><a href="journaling.html">Journaling</a></li>
+
+
+<!-- isi kosa kata huruf K-->        
+        <li><a href="kermit.html">Kermit</a></li>
+        <li><a href="kernel.html">Kernel</a></li>
+        
+	<li data-filtertext="Kbit/s Kilobits per Second">
+	<a href="kbit.html">Kilobits per Second (Kbit/s)</a></li> 
+	
+	<li data-filtertext="KB Kilobyte">
+	<a href="kb.html">Kilobyte (KB)</a></li>
+	
+	<li data-filtertext="Kbyte/s Kilobyte per Second">
+	<a href="kbyte.html">Kilobyte per Second (Kbyte/s)</a></li>
+        
+<!-- isi kosa kata huruf L-->        
+        <li><a href="lan_server.html">LAN Server</a></li> 
+        <li><a href="lan_station.html">LAN Station</a></li>
+        <li><a href="lan_switch.html">LAN Switch</a></li> 
+	<li><a href="layer.html">Layer</a></li>
+        
+	<li data-filtertext="LAN Local Area Network">
+	<a href="lan.html">Local Area Network (LAN)</a></li> 
+	
+	<li><a href="local_loop.html">Local Loop</a></li>
+
+
+<!-- isi kosa kata huruf M-->        
+        <li><a href="mail_bridge.html">Mail Bridge</a></li>
+        <li><a href="mail_gateway.html">Mail Gateway</a></li> 
+        <li><a href="mail_path.html">Mail Path</a></li>
+        <li><a href="mail_server.html">Mail Server</a></li> 
+        <li><a href="mailing_list.html">Mailing List</a></li>
+        <li><a href="mainframe_computer.html">Mainframe Computer</a></li>
+        <li><a href="mbps.html">Mbps</a></li> 
+        
+        <li data-filtertext="MB Megabyte">
+		<a href="mb.html">Megabyte (MB)</a></li>
+        
+	<li><a href="message.html">Message</a></li> 
+        <li><a href="message_switching.html">Message Switching</a></li>
+        <li><a href="minicomputer.html">Minicomputer</a></li> 
+        <li><a href="modem.html">Modem</a></li>
+        <li><a href="multitasking.html">Multitasking</a></li> 
+
+
+  <!-- isi kosa kata huruf N-->
+        <li data-filtertext="NetBios">
+		<a href="netbios.html">NetBios (Network Basic Input/Output System)</a></li>
+        
+	<li><a href="netware.html">NetWare</a></li>
+        <li><a href="network.html">Network </a></li>
+        <li><a href="network_architecture.html">Network Architecture</a></li>
+        <li><a href="network_aware_application.html">Network-aware Application</a></li>
+        <li><a href="network_computing.html">Network Computing</a></li>
+        
+	<li data-filtertext="NFS Network File System">
+	<a href="nfs.html">Network File System (NFS)</a></li>
+        
+	<li><a href="network_layer.html">Network Layer</a></li>
+	<li><a href="network_server.html">Network Server</a></li>
+        <li><a href="node.html">Node</a></li>
+        <li><a href="noise.html">Noise</a></li>
+
+
+<!-- isi kosa kata huruf O-->
+
+	<li><a href="octet.html">Octet</a></li>
+        <li><a href="open_architecture.html">Open Architecture</a></li>
+        
+	<li data-filtertext="OS Operating System">
+	<a href="os.html">Operating System (OS)</a></li>
+        
+	<li><a href="osi_network.html">OSI Network Address</a></li>
+        
+	<li data-filtertext="OSI Open Systems Interconnection Reference Model">
+	<a href="osi_reference.html">OSI (Open Systems Interconnection) Reference Model</a></li>
+    
+  	<li data-filtertext="TPO OSI Transport Protocol Class 0 (Simple Class)">
+	<a href="osi_tpo.html">OSI Transport Protocol Class 0 (Simple Class) (TPO)</a></li>
+	
+	<li data-filtertext="TP4 OSI Transport Protocol Class 4 (Error Detection and Recovery Class)">
+	<a href="osi_tp4.html">OSI Transport Protocol Class 4 (Error Detection and Recovery Class) (TP4)</a></li>
+
+
+<!-- isi kosa kata huruf P-->
+
+	<li><a href="packet.html">Packet</a></li>
+        <li><a href="packet_switching.html">Packet Switching</a></li>
+        
+	<li data-filtertext="PSN Packet Switch Node">
+	<a href="psn.html">Packet Switch Node (PSN)</a></li>
+        
+        <li><a href="passwords.html">Passwords</a></li>
+        <li><a href="peer_to_peer.html">Peer-to-Peer</a></li>
+        <li><a href="physical_address.html">Physical Address</a></li>
+        <li><a href="physical_layer.html">Physical Layer</a></li>
+        <li><a href="physical_media.html">Physical Media</a></li>
+        <li><a href="physical_unit.html">Physical Unit</a></li>
+        
+		<li><a href="port.html">Port</a></li>
+        <li><a href="portal.html">Portal</a></li>
+        <li><a href="presentation_layer.html">Presentation Layer</a></li>
+        <li><a href="print_server.html">Print Server</a></li>
+        <li><a href="protocol.html">Protocol</a></li>
+        <li><a href="protocol_suite.html">Protocol Suite</a></li>
+        <li><a href="public_data_network.html">Public Data Network</a></li>
+        
+
+<!-- isi kosa kata huruf Q-->
+        <li><a href="query.html">Query</a></li>
+        <li><a href="queue.html">Queue</a></li>
+
+
+<!-- isi kosa kata huruf R-->   
+        <li><a href="reassembly.html">Reassembly</a></li>
+        <li><a href="response.html">Response</a></li>
+        <li><a href="ring_topology.html">Ring Topology</a></li>
+        <li><a href="router.html">Router</a></li>
+        <li><a href="routing.html">Routing</a></li>
+        
+<!-- isi kosa kata huruf S-->         
+        <li><a href="server.html">Server</a></li>
+        <li><a href="slot_time.html">Slot Time</a></li>
+        <li><a href="spanning.html">Spanning</a></li>
+        <li><a href="star_topology.html">Star Topology</a></li>
+        <li><a href="station.html">Station</a></li>
+        <li><a href="striping.html">Striping</a></li>
+        
+	<li data-filtertext="SQL Structured Query Language">
+	<a href="sql.html">Structured Query Language (SQL)</a></li>
+        
+	<li><a href="subnet.html">Subnet</a></li>
+	<li><a href="switch.html">Switch</a></li>
+        <li><a href="system.html">System</a></li>
+
+
+<!-- isi kosa kata huruf T-->         
+        <li><a href="telnet.html">Telnet</a></li>
+        <li><a href="terminal.html">Terminal</a></li>
+        <li><a href="terminal_server.html">Terminal Server</a></li>
+        <li><a href="token.html">Token</a></li>
+        <li><a href="topology.html">Topology</a></li>
+        
+	<li data-filtertext="TCP Transmission Control Protocol">
+	<a href="tcp.html">Transmission Control Protocol (TCP)</a></li>
+
+	<li><a href="tcp_ip.html">Transmission Control Protocol/Internet Protocol</a></li>
+        <li><a href="transport_layer.html">Transport Layer</a></li>
+        <li><a href="trojan_horse.html">Trojan Horse</a></li>
+        <li><a href="tunnel.html">Tunnel</a></li>
+
+<!-- isi kosa kata huruf U--> 
+	<li><a href="user.html">User</a></li>
+        <li><a href="user_account.html">User Account</a></li>
+        
+	<li data-filtertext="UDP User Datagram Protocol">
+	<a href="udp.html">User Datagram Protocol (UDP)</a></li>
+
+
+<!-- isi kosa kata huruf V--> 
+	<li><a href="vector.html">Vector</a></li>
+	<li><a href="vertical_application.html">Vertical Application</a></li>
+        <li><a href="virtual.html">Virtual</a></li>
+	<li><a href="virtual_circuit.html">Virtual Circuit</a></li>
+        <li><a href="volume.html">Volume</a></li>
+        
+        
+<!-- isi kosa kata huruf W--> 
+	<li data-filtertext="WAIS Wide Area Information Servers">
+	<a href="wais.html">Wide Area Information Servers (WAIS)</a></li>
+
+	<li data-filtertext="WAN Wide Area Network">
+	<a href="wan.html">Wide Area Network (WAN)</a></li>
+        
+	<li><a href="wireless_transmission.html">Wireless Transmission</a></li>
+	<li><a href="workgroup.html">Workgroup</a></li>
+        <li><a href="workgroup_manager.html">Workgroup Manager</a></li>
+	<li><a href="workstation.html">Workstation</a></li>
+	<li><a href="worldwide_internet.html">Worldwide Internet</a></li>
+        
+	<li data-filtertext="WWW World Wide Web W3">
+	<a href="www.html">World Wide Web (WWW or W3)</a></li>
+	
+	<li><a href="wysiwyg.html">WYSIWYG  </a></li>
+        
+<!-- isi kosa kata huruf X--> 
+	<li><a href="x.html">X</a></li>
+	<li><a href="x25.html">X.25</a></li>
+        
+	<li data-filtertext="XNS Xerox Network System">
+	<a href="xns.html">Xerox Network System (XNS)</a></li>
+
+
+<!-- isi kosa kata huruf Y--> 
+	<li data-filtertext="YP Yellow Pages">
+	<a href="yp.html">Yellow Pages (YP)</a></li>
+        
+        
+
+<!-- isi kosa kata huruf Z--> 
+		<li><a href="zero_slot.html">Zero-Slot LAN</a></li>
+		<li><a href="zone.html">Zone</a></li>
+        
+
+</ul>
+</div>  </div>  
+
+<!-- ini buat kodingan naro panel, kodingan ditulis setelah </div> data role page id ditutup--> 
+<div data-role="panel" id="left-panel" data-theme="a">
+ <ul data-role="listview" data-theme="e">
+ 
+ <li data-icon="delete"><a href="#" data-rel="close">Tutup</a></li>
+
+ <li data-icon="back"><a href="home.html">Halaman Utama</a></li>     
+<li data-icon="star"><a href="about.html">Tentang Aplikasi</a></li>
+<li data-icon="alert"><a href="help.html">Bantuan</a></li>
+        </ul> </div> 
+              
+        
+</div> <!-- ini buat nutup div artikel--> 
+</body>
+</html>

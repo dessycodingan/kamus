@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<!--buat ngebaca data ke xml-->
+<meta charset="utf-8">
+
+<title>Kamus Istilah Jaringan Komputer</title>
+
+<!--buat ngebaca libary dari Jquery mobile-->
+<link href="JavaScript/jquery.mobile-1.3.1.min.css" rel="stylesheet" type="text/css"/>
+<script src="JavaScript/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="JavaScript/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<!-- kalo mau link "id" nya diganti dulu-->
+<div data-role="page" id="data_link" data-theme="e"> 
+
+<!-- ini buat headernya-->
+	<div data-role="header" data-theme="a">
+  
+
+ <a href="search.html" data-role="button" data-mini="true" data-inline="true" data-theme="e">Kembali</a>
+  
+<!-- ini buat headernya-->  
+  <div align="center">
+	<p>Kamus Istilah  <br>Jaringan Komputer</br></p>
+    </div>
+      
+   
+	</div>    
+ 
+<br>
+
+<div data-role="content" div align="center">	
+<b>Data Link Layer</b> <br><div data-role="content" div align="justify">
+<p>Layer kedua dari model OSI. Data Link Layer bertanggung jawab untuk penyediaan transmisi data melalui link tunggal dari satu sistem ke sistem lain. Mekanisme kontrol dalam Data Link Layer menangani transmisi data unit, yang sering disebut frame, melalui suatu circuit fisik. Fungsi-fungsi yang beroperasi pada Data Link Layer memungkinkan data ditransmisikan, dalam mode yang relatif bebas dari kesalahan, melalui suatu circuit fisik yang kadang kala cenderung memiliki kesalahan. Layer ini mengurus bagaimana bit-bit dikumpulkan kedalam frame-frame dan mengimplementasikan mekanisme pendektesian error yang mengidentifikasikan transmission errors. Pada beberapa tipe data link. Data Link layer juga dapat membentuk prosedur-prosedur untuk flow-control, frame sequencing dan pemulihan kesalahan transmisi.</p>
+
+
+<!--Kodingan popup, data-inline="true" gunanya untuk besar button disesuaikan dengan kalimat-->
+
+<a href="#transparent" data-rel="popup" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="a" data-position-to="window" data-transition="fade" data-inline="true">Layer Data Link</a>
+
+<div id="transparent" data-role="popup" data-overlay-theme="a" data-theme="d" data-corners="false">
+
+    <a href="data_link.html" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Tutup</a>
+        
+  <img src="Gambar32.jpg" class="popphoto" alt="Gambar 32 (Layer Data Link) on a transparent popup">
+</div> </div> 
+
+</div> <!-- ini buat nutup div popup--> 
+</div>
+
+</body>
+</html>
